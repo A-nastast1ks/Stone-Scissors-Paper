@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Scissors-Paper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Камень-Ножницы-Бумага</h1>
+    <div id="player-display">ИГРОК: </div>
+    <div id="computer-display">КОМПЬЮТЕР: </div>
+    <div id="result-display"></div>
+
+    <div class="choices">
+        <button onclick="playGame('камень')">✊🏻</button>
+        <button onclick="playGame('ножницы')">🖐🏻</button>
+        <button onclick="playGame('бумага')">✌🏻</button>
+    </div>
+
+    <div class="scoreDisplay">Победы игрока: 
+        <span id="player-score-display">0</span>
+    </div>
+
+    <div class="score-display">Победы компьютера: 
+        <span id="computer-score-display">0</span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
